@@ -1,0 +1,9 @@
+/* We will define here some 'CSS Variables' */
+:root {
+    /* This is a custom 'CSS Variables' that we defined for color of the 'physical, emotional & intellectual' elements => for: 
+    '<p/>' => ['/components/BiorhythmCard.js'] file
+    'Line' => ['/components/BiorhythmChart.js'] file */
+    --app-physical-color: green;
+    --app-emotional-color: red;
+    --app-intellectual-color: blue;
+}

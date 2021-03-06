@@ -1,0 +1,23 @@
+/* '.biorhythm-chart .physical' => To specify that we want to 'style only' the 'physical' element 'under' the root 'biorhythm-chart' element 
+   'path' => If we inspect the chart with web-browser will find '<svg class.../> -> <g class="...recharts-line".../> -> <path.../>' 
+          => Who is drawing the 'Line' of the 'Chart' */
+.biorhythm-chart .physical path {
+    /* '--app-physical-color' => From 'index.css' file ===> color: green; */
+    stroke: var(--app-physical-color);  /* green; */
+}
+
+/* '.biorhythm-chart .emotional' => To specify that we want to 'style only' the 'emotional' element 'under' the root 'biorhythm-chart' element 
+   'path' => If we inspect the chart with web-browser will find '<svg class.../> -> <g class="...recharts-line".../> -> <path.../>' 
+          => Who is drawing the 'Line' of the 'Chart' */
+.biorhythm-chart .emotional path {
+    /* '--app-emotional-color' => From 'index.css' file ===> color: red; */
+    stroke: var(--app-emotional-color);  /* red; */
+}
+
+/* '.biorhythm-chart .intellectual' => To specify that we want to 'style only' the 'intellectual' element 'under' the root 'biorhythm-chart' element 
+   'path' => If we inspect the chart with web-browser will find '<svg class.../> -> <g class="...recharts-line".../> -> <path.../>' 
+          => Who is drawing the 'Line' of the 'Chart' */
+.biorhythm-chart .intellectual path {
+    /* '--app-intellectual-color' => From 'index.css' file ===> color: blue; */
+    stroke: var(--app-intellectual-color);  /* blue; */
+}

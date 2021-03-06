@@ -1,0 +1,22 @@
+/* '.biorhythm-card .p' => To specify that we want to 'style only' the 'p' element 'under' the root 'biorhythm-card' element */
+.biorhythm-card .p {
+    line-height: normal; /* reduce spaces between the paragraphs '<p /> */
+}
+
+/* '.biorhythm-card .physical' => To specify that we want to 'style only' the 'physical' element 'under' the root 'biorhythm-card' element */
+.biorhythm-card .physical {
+    /* '--app-physical-color' => From 'index.css' file ===> color: green; */
+    color: var(--app-physical-color); /* green; */
+}
+
+/* '.biorhythm-card .emotional' => To specify that we want to 'style only' the 'emotional' element 'under' the root 'biorhythm-card' element */
+.biorhythm-card .emotional {
+    /* '--app-emotional-color' => From 'index.css' file ===> color: red; */
+    color: var(--app-emotional-color);  /* red; */
+}
+
+/* '.biorhythm-card .intellectual' => To specify that we want to 'style only' the 'intellectual' element 'under' the root 'biorhythm-card' element */
+.biorhythm-card .intellectual {
+    /* '--app-intellectual-color' => From 'index.css' file ===> color: blue; */
+    color: var(--app-intellectual-color); /* blue; */
+}
